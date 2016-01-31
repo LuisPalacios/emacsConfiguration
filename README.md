@@ -30,12 +30,12 @@ Here you can find my .emacs configuration
 ;; It has nothing to do with this file ($HOME/.emacs), but I
 ;; document it here
 ;;
-;; C-space        Activar 'Marcar Selecci�n'
-;; C-w            Cortar la selecci�n
-;; C-y            Pegar la selecci�n cortada
+;; C-space        Activar 'Marcar Selección'
+;; C-w            Cortar la selección
+;; C-y            Pegar la selección cortada
 ;; C-z            Undo
-;; Home           Ir al principio de la l�nea (Mac: Fn-Inicio)
-;; Fin            Ir al final de la l�nea (Mac: Fn-Fin)
+;; Home           Ir al principio de la línea (Mac: Fn-Inicio)
+;; Fin            Ir al final de la línea (Mac: Fn-Fin)
 ;; C-Home         Ir al principio del documento (Mac: C-Fn-Home)
 ;; C-Fin          Ir al final del documento (Mac: C-Fn-Fin)
 ;;
@@ -44,7 +44,7 @@ Here you can find my .emacs configuration
 ;;
 ;;
 
-;; Opcion gen�rica
+;; Opcion genérica
 (setq frame-title-format "%b - GNU Emacs") ; Make the frame a bit more useful.
 
 ;; Look and feel
@@ -59,7 +59,7 @@ Here you can find my .emacs configuration
       '(24-hours ":" minutes))
 (display-time)
 
-;; Activar n�meros de columnas
+;; Activar números de columnas
 (column-number-mode)
 
 ; At least this mode won't do anything stupid.
@@ -74,7 +74,7 @@ Here you can find my .emacs configuration
 (set-keyboard-coding-system 'iso-latin-1)
 (set-terminal-coding-system 'iso-latin-1)
 
-;; Ignorar 'case' en b�squedas
+;; Ignorar 'case' en búsquedas
 (setq case-fold-search t)
 
 ;; Buff.. el rat�n.
@@ -97,7 +97,7 @@ Here you can find my .emacs configuration
 ;; Ya vale de mensajes al arrancar
 (setq inhibit-startup-message t)
 
-;; Mostrar par�ntesis
+;; Mostrar paréntesis
 (show-paren-mode t)
 
 ;; Paso de menus
@@ -138,7 +138,7 @@ Here you can find my .emacs configuration
                                           :background "steel blue")))))
 
 ;; Teclas
-;; Si usas o has usado windows estas teclas te ayudar�n a no
+;; Si usas o has usado windows estas teclas te ayudarán a no
 ;; volverte loco.
 (global-set-key [end]    'end-of-line)
 (global-set-key [home]   'beginning-of-line)
