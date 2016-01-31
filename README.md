@@ -77,10 +77,6 @@ Here you can find my .emacs configuration
 ;; Ignorar 'case' en búsquedas
 (setq case-fold-search t)
 
-;; Buff.. el rat�n.
-(set-mouse-color "blue")
-(mouse-wheel-mode)
-
 ;(if window-system
 ;
 ;    ;; Place scroll-bar
@@ -219,21 +215,4 @@ Here you can find my .emacs configuration
      (search-ring              . 20)
      (shell-command-history    . 50)))
   (desktop-read))
-
-;; Enable wheelmouse support by default
-(require 'mwheel)
-
-;;Define the mouse scroll wheel
-(defun up-slightly () (interactive) (scroll-up 5))
-(defun down-slightly () (interactive) (scroll-down 5))
-(global-set-key [mouse-4] 'down-slightly)
-(global-set-key [mouse-5] 'up-slightly)
-
-;;Support for scrolling Griffin powermate
-(global-set-key [wheel-down] 'up-slightly)
-(global-set-key [wheel-up] 'down-slightly)
-(global-set-key [double-wheel-down] 'up-slightly)
-(global-set-key [double-wheel-up] 'down-slightly)
-(global-set-key [triple-wheel-down] 'up-slightly)
-(global-set-key [triple-wheel-up] 'down-slightly)
 </pre>
