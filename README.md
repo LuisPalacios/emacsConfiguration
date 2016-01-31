@@ -2,6 +2,7 @@
 
 Here you can find my .emacs configuration
 
+<pre>
 ;;
 ;; .emacs
 ;;
@@ -235,3 +236,4 @@ Here you can find my .emacs configuration
 (global-set-key [double-wheel-up] 'down-slightly)
 (global-set-key [triple-wheel-down] 'up-slightly)
 (global-set-key [triple-wheel-up] 'down-slightly)
+</pre>
